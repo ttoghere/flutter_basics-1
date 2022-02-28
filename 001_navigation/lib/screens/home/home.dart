@@ -36,6 +36,7 @@ class _HomeState extends State<Home> {
       body: Center(
         child: Column(
           children: <Widget>[
+            // ignore: deprecated_member_use
             RaisedButton(
               child: Text("Go To Second"),
               onPressed: _goToSecond,

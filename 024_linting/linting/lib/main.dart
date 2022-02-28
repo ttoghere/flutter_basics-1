@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+// ignore: todo
 // TODO: Make a Linting Tutorial
 
 void main() {

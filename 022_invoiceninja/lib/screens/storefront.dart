@@ -118,14 +118,17 @@ class _MyStoreFrontState extends State<MyStoreFront> with WidgetsBindingObserver
                         .toList(),
                   ),
                   SizedBox(height: 16),
+                  // ignore: deprecated_member_use
                   OutlineButton(
                     child: Text('Create Invoice'),
                     onPressed: (_email.isNotEmpty && _product != null) ? () => _createInvoice() : null,
                   ),
+                  // ignore: deprecated_member_use
                   OutlineButton(
                     child: Text('View PDF'),
                     onPressed: (_invoice != null) ? () => _viewPdf() : null,
                   ),
+                  // ignore: deprecated_member_use
                   OutlineButton(
                     child: Text('View Portal'),
                     onPressed: (_invoice != null) ? () => _viewPortal() : null,

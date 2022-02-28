@@ -31,6 +31,7 @@ class _SecondState extends State<Second> {
       body: Center(
         child: Column(
           children: <Widget>[
+            // ignore: deprecated_member_use
             RaisedButton(
               child: Text("Go Back"),
               onPressed: _goBack,

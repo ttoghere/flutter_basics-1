@@ -65,6 +65,7 @@ class _HomeState extends State<Home> {
           SizedBox(
             height: 20,
           ),
+          // ignore: deprecated_member_use
           RaisedButton(
             key: Key("loadFromDatabase"),
             child: Text("Load Todo from Database"),

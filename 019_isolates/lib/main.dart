@@ -72,6 +72,7 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Text(count.toString()),
+            // ignore: deprecated_member_use
             RaisedButton(
               child: Text("Add"),
               onPressed: () async {
@@ -79,6 +80,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 setState(() {});
               },
             ),
+            // ignore: deprecated_member_use
             RaisedButton(
               child: Text("Add in Isolate"),
               onPressed: runCompute,

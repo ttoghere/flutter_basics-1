@@ -81,10 +81,12 @@ class _MyAdminState extends State<MyAdmin> with WidgetsBindingObserver {
                     keyboardType: TextInputType.emailAddress,
                   ),
                   SizedBox(height: 16),
+                  // ignore: deprecated_member_use
                   OutlineButton(
                     child: Text('Find Client'),
                     onPressed: (_email.isNotEmpty != null) ? () => _findClient() : null,
                   ),
+                  // ignore: deprecated_member_use
                   OutlineButton(
                     child: Text('Load all Invoices'),
                     onPressed: () => _loadInvoices(),

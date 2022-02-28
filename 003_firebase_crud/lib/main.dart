@@ -68,18 +68,22 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
       body: Center(
         child: Column(mainAxisAlignment: MainAxisAlignment.center, children: <Widget>[
+          // ignore: deprecated_member_use
           RaisedButton(
             child: Text("Create"),
             onPressed: _create,
           ),
+          // ignore: deprecated_member_use
           RaisedButton(
             child: Text("Read"),
             onPressed: _read,
           ),
+          // ignore: deprecated_member_use
           RaisedButton(
             child: Text("Update"),
             onPressed: _update,
           ),
+          // ignore: deprecated_member_use
           RaisedButton(
             child: Text("Delete"),
             onPressed: _delete,

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_basics_statelessstateful/screens/home/home.dart';
+
+import 'screens/home/home.dart';
 
 void main() => runApp(MyApp());
 

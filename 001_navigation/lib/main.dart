@@ -1,3 +1,5 @@
+// ignore_for_file: missing_return
+
 import 'package:flutter/material.dart';
 import 'package:flutter_basics/screens/home/home.dart';
 import 'package:flutter_basics/screens/second/second.dart';
